@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"gen:er": "mmdc -t forest -i mermaid.md -o er.png"
+		"gen:er": "mmdc -t forest -i mermaid.mmd -o er.png -w 3340 -H 1440"
 	},
 	"devDependencies": {
 		"@mermaid-js/mermaid-cli": "^8.9.1"
